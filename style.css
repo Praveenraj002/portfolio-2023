@@ -531,7 +531,7 @@ li {
     margin-top: 60px;
     gap: 30px;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 15px;
     justify-content: center;
     align-items: center;
   }
@@ -554,7 +554,7 @@ li {
   .card {
     background-color: white;
     color: #0c0c0c;
-    width: 300px;
+    width: 320px;
     height: 350px;
     border-radius: 20px;
     padding: 30px;
@@ -579,11 +579,11 @@ li {
   }
 
   .card-contents h3 {
-    margin-top: 30px;
+    margin-top: 25px;
     color: #1d6ad5;
   }
   .card-contents p {
-    margin-top: 20px;
+    margin-top: 18px;
   }
 
   .card-techs {
