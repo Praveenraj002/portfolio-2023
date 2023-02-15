@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
@@ -7,7 +9,8 @@
 body {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1366' height='768' preserveAspectRatio='none' viewBox='0 0 1366 768'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1044%26quot%3b)' fill='none'%3e%3cpath d='M605.501%2c426.704C649.493%2c427.209%2c695.273%2c409.354%2c714.769%2c369.915C732.825%2c333.389%2c708.346%2c294.495%2c688.425%2c258.952C667.808%2c222.169%2c647.662%2c175.645%2c605.501%2c174.964C562.8%2c174.274%2c538.254%2c218.705%2c517.802%2c256.196C498.538%2c291.51%2c482.096%2c331.681%2c500.495%2c367.454C520.197%2c405.759%2c562.429%2c426.209%2c605.501%2c426.704' fill='rgba(11%2c 98%2c 190%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M635.166%2c535.657C673.204%2c536.382%2c713.687%2c527.943%2c733.872%2c495.694C755.084%2c461.804%2c751.249%2c417.829%2c730.188%2c383.845C710.201%2c351.594%2c673.108%2c336.526%2c635.166%2c336.418C597.008%2c336.309%2c558.681%2c350.489%2c539.202%2c383.301C519.358%2c416.727%2c522.055%2c459.158%2c542.773%2c492.05C562.227%2c522.935%2c598.672%2c534.961%2c635.166%2c535.657' fill='rgba(11%2c 98%2c 190%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1339.347%2c435.343C1393.854%2c437.442%2c1439.392%2c395.879%2c1464.021%2c347.209C1486.354%2c303.076%2c1478.164%2c252.194%2c1453.818%2c209.139C1429.014%2c165.273%2c1389.676%2c129.266%2c1339.347%2c126.725C1284.682%2c123.965%2c1228.033%2c147.83%2c1202.942%2c196.475C1179.303%2c242.306%2c1204.695%2c293.425%2c1230.267%2c338.206C1256.144%2c383.521%2c1287.203%2c433.335%2c1339.347%2c435.343' fill='rgba(11%2c 98%2c 190%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M92.631%2c497.439C140.091%2c498.51%2c186.946%2c478.491%2c211.362%2c437.779C236.437%2c395.97%2c234.071%2c343.859%2c210.248%2c301.324C185.845%2c257.752%2c142.557%2c226.97%2c92.631%2c225.785C40.666%2c224.551%2c-10.702%2c249.588%2c-35.074%2c295.5C-58.238%2c339.137%2c-43.57%2c390.865%2c-17.164%2c432.62C7.183%2c471.12%2c47.091%2c496.411%2c92.631%2c497.439' fill='rgba(11%2c 98%2c 190%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1044'%3e%3crect width='1366' height='768' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
 
-  font-family: "Poppins", sans-serif !important;
+  /* font-family: "Poppins", sans-serif !important; */
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -106,7 +109,7 @@ li {
     color: aliceblue;
     background-color: #1d6ad5;
     border: #1d6ad5 2px solid;
-    font-family: "Poppins", sans-serif !important;
+    font-family: "Montserrat", sans-serif;
     padding: 8px 20px 8px 20px;
     border-radius: 10px;
     font-size: large;
@@ -233,6 +236,10 @@ li {
     background-color: white;
     color: black;
   }
+/* 
+  .card:hover:hover h3{
+    text-decoration: underline;
+  } */
 
   .card-navbar {
     display: flex;
@@ -245,6 +252,7 @@ li {
   }
   .card-contents p {
     margin-top: 20px;
+    line-height: 25px;
   }
 
   .card-techs {
@@ -299,10 +307,12 @@ li {
 
   .contact-text-content p {
     margin-top: 20px;
-    font-size: xx-large;
+    font-size: larger;
     font-weight: 500;
     margin-bottom: 20px;
     text-align: center;
+    line-height: 25px;
+    margin: 0px 100px;
   }
 
   #social-list {
@@ -433,7 +443,8 @@ li {
     color: aliceblue;
     background-color: #1d6ad5;
     border: 2px solid #1d6ad5;
-    font-family: "Poppins", sans-serif !important;
+    /* font-family: "Poppins", sans-serif !important; */
+    font-family: 'Montserrat', sans-serif;
     padding: 10px 8px;
     border-radius: 8px;
     font-size: large;
@@ -584,6 +595,7 @@ li {
   }
   .card-contents p {
     margin-top: 18px;
+    line-height: 25px;
   }
 
   .card-techs {
