@@ -87,11 +87,15 @@ li {
     display: flex;
     flex-direction: column;
     gap: 80px;
+    animation: moveInLeft;
+    animation-duration: 0.5s;
   }
 
   .hero-tag {
     color: #1d6ad5;
     line-height: 50px;
+    animation: moveInLeft;
+    animation-duration: 0.5s;
   }
 
   .hero-text-contents p {
@@ -99,10 +103,14 @@ li {
     font-size: large;
     font-weight: 500;
     margin-bottom: 20px;
+    animation: moveInLeft;
+    animation-duration: 0.5s;
   }
 
   .hero-img img {
     width: 520px;
+    animation: moveInRight;
+    animation-duration: 0.5s;
   }
 
   .btn {
@@ -115,6 +123,11 @@ li {
     font-size: large;
     font-weight: 600;
     cursor: pointer;
+  }
+
+  #resume-btn{
+    animation: moveInLeft;
+    animation-duration: 0.5s;
   }
 
   .btn:hover {
@@ -385,6 +398,39 @@ li {
   .footer-contents img {
     width: 80px;
   }
+
+  /* ANIMATIONS */
+  /* Animations */
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  
+  80%{
+    transform: translateX(20px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+
 }
 
 @media all and (max-width: 992px) {
