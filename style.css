@@ -26,6 +26,38 @@ li {
 }
 
 @media all and (min-width: 992px) {
+  /* ANIMATIONS */
+  @keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+
+    80% {
+      transform: translateX(20px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+
+    80% {
+      transform: translateX(-20px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
   nav {
     background: #1d6ad5; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #04b7f2, #1d6ad5);
@@ -88,14 +120,16 @@ li {
     flex-direction: column;
     gap: 80px;
     animation: moveInLeft;
-    animation-duration: 0.5s;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
   }
 
   .hero-tag {
     color: #1d6ad5;
     line-height: 50px;
     animation: moveInLeft;
-    animation-duration: 0.5s;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
   }
 
   .hero-text-contents p {
@@ -104,13 +138,15 @@ li {
     font-weight: 500;
     margin-bottom: 20px;
     animation: moveInLeft;
-    animation-duration: 0.5s;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
   }
 
   .hero-img img {
     width: 520px;
     animation: moveInRight;
-    animation-duration: 0.5s;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
   }
 
   .btn {
@@ -125,9 +161,10 @@ li {
     cursor: pointer;
   }
 
-  #resume-btn{
+  #resume-btn {
     animation: moveInLeft;
-    animation-duration: 0.5s;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
   }
 
   .btn:hover {
@@ -154,6 +191,7 @@ li {
     margin-top: 50px;
     border-radius: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    /* animation-delay: 0.5s; */
   }
 
   .about-text-contents {
@@ -249,7 +287,7 @@ li {
     background-color: white;
     color: black;
   }
-/* 
+  /* 
   .card:hover:hover h3{
     text-decoration: underline;
   } */
@@ -398,39 +436,6 @@ li {
   .footer-contents img {
     width: 80px;
   }
-
-  /* ANIMATIONS */
-  /* Animations */
-@keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-100px);
-  }
-  
-  80%{
-    transform: translateX(20px);
-  }
-
-  100%{
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-
-@keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(100px);
-  }
-
-
-  100%{
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-
-
 }
 
 @media all and (max-width: 992px) {
@@ -490,7 +495,7 @@ li {
     background-color: #1d6ad5;
     border: 2px solid #1d6ad5;
     /* font-family: "Poppins", sans-serif !important; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     padding: 10px 8px;
     border-radius: 8px;
     font-size: large;
