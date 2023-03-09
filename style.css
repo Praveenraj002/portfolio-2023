@@ -136,6 +136,10 @@ li {
     /* margin: 100px auto; */
   }
 
+  .msg{
+    font-size: 18px;
+  }
+
   .img-box {
     text-align: center;
     margin: 50px auto;
